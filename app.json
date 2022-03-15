@@ -1,0 +1,20 @@
+{
+  "name": "telegram-music-downloader-bot",
+  "description": "YouTube Music Downloader Bot for Telegram. ",
+	"stack": "container",
+  "repository": "https://github.com/TheOnlyMrLucifer/WikiSpotifyBot",
+  "keywords": [
+  "python", 
+  "chatbot", 
+  "telegrambot"
+  ],
+  "website": "https://github.com/TheOnlyMrLucifer/WikiSpotifyBot",
+  "success_url": "https://t.me/LuciferV12Bot",
+  "env": {
+    "TOKEN": {
+      "description": "Make a bot at BotFather http://telegram.dog/BotFather and get the token of your bot",
+      "value": "",
+      "required": true
+    }
+  }
+}
